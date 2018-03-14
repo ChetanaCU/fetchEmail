@@ -23,6 +23,7 @@ public class FetchEmailIDController {
 			emailRepository.save(id);
 			return "SuccessPage.html";
 		}
+		
 		catch(Exception ex)
 		{
 			ex.printStackTrace();
